@@ -44,10 +44,7 @@ deploy:
   provider: releases
   api_key:
     secure: dTL+wUJIEs7DSOAkbxN8FkRE+S0rmUmZ9OUsy+tKjOk0Xv6FLc+ong1kUbnwcUn7NMH3tOtO7LiKZYcfX3wS7vK4QtyIIh4ZO2b5Wuhb/Gg6HqLYjXpjvYPk8uLK355nCrsIx40nJ7gDvdyybCVX71yKLahp8EEAkmvaQY/UiWNQxmsTbmVOwPlQbVRLSjfpX9EMq8eiXPc+AvYTs7IhWQ/6BaJQKXVtu7ejGNWHGwm8YiJ1j2VQb+J9Fbxt7KNkPrHh4wkNkohlmiqmCh64MuZPV1xjaXZ+VZNxB8mgqtsIZ0Tbi4UdYSeZDA/9crFy5mulI7WrZTNPBgVaa8aQgZWyw+4wSswTIwuBmACqpHt4j3JxKoELUIBI1UunIgwG0CCYVyJViQxEc2z0KM0XFaFv63lfcPUJv4AKMd1M3Zi3tC4rG3ZaFb2tRH3YjN9cYBj4PZKoYwJN41uc5qFGqM3LOFMtRtSrEjBGi9ICFirVdhPvMse9oeVaCfzUouTAKBQ9n8cs+5qmL3wmyQEAsT4iwrEqoVwSIK8V7pIss5k8Pocnr2kwLCUKvd5ZB5p3XdbWJx/5DesR6J7+sb+UWzTeQt2cRJN/V6f3kQr3KhCuM0QICqjP+iMh4DBpViQZecJkTFLgrlyr1cEpfz55otMe5AWDA/y8/TNzk3BvFnI=
-  file_glob: true
-  file: 'dist/*.{zip}'
+  file: CentOS.zip
   on:
     repo: bytesapart/CentWSL
-    tags: true
-    all_branches: true
-  skip_cleanup: true
+    branch: '7'
